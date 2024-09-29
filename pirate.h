@@ -101,11 +101,13 @@ void spi_busy_wait(bool enable);
 #define M_OW_OWD BIO0
 
 // UART settings
+// function select table:
+// https://www.raspberrypi.com/documentation/pico-sdk/hardware.html#group_hardware_gpio_1autotoc_md0
 #define M_UART_PORT uart0
-#define M_UART_TX BIO4
-#define M_UART_RX BIO5
-#define M_UART_RTS
-#define M_UART_CTS
+#define M_UART_TX BIO4 // 12
+#define M_UART_RX BIO5 // 13
+#define M_UART_RTS BIO7 // 15
+#define M_UART_CTS BIO6 // 14
 #define M_UART_RXTX BIO0
 
 // i2c settings

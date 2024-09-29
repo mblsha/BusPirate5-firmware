@@ -109,10 +109,10 @@ static char const * const en_us[]={
 	[T_UART_FLOW_CONTROL_MENU_2]="RTS/CTS",
 	[T_UART_FLOW_CONTROL_PROMPT]="Flow control",
 
-	[T_UART_INVERT_MENU]="Signal inversion for RX/TX",
+	[T_UART_INVERT_MENU]="Signal inversion",
 	[T_UART_INVERT_MENU_1]="Non-inverted (Standard)",
 	[T_UART_INVERT_MENU_2]="Inverted",
-	[T_UART_INVERT_PROMPT]="Invert RX/TX",
+	[T_UART_INVERT_PROMPT]="Invert signals",
 
 	[T_UART_ACTUAL_SPEED_BAUD]="Actual speed",
 	[T_UART_BAUD]="baud",
